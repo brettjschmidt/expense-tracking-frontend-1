@@ -1,0 +1,85 @@
+
+.home {
+    display: grid;
+    grid-template: 1fr / auto auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.balance-details {
+    background: var(--primary);
+    display: grid;
+    grid: 1fr;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.balance-details h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: var(--secondary);
+}
+
+.balance-details p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.balance-details span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: var(--primary);
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.delete-icon {
+    color: var(--secondary);
+    font-size: 1.2em;
+}
+
+.account-details {
+    background: var(--primary);
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 27.25px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.account-details h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: var(--secondary);
+}
+
+.account-details p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.account-details span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: var(--primary);
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.account-delete-icon {
+    color: var(--secondary);
+    font-size: 1.2em;
+}
+
+.input-forms {
+    display: flex;
+    justify-content: center;
+}
