@@ -28,7 +28,7 @@ const IncomeTotal = () => {
         return 0.00;
     };
     return (
-        <div className="account-total">
+        <div className="income-total">
             {accounts && <p>Income Total: ${calculateTotalIncome()}</p>}
         </div>
     );

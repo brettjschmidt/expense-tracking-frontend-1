@@ -1,8 +1,8 @@
 import React from "react";
 import { useAccountContext } from "../hooks/useAccountContext";
 import formatDistanceToNow from "date-fns/formatDistanceToNow";
-import { toast } from "react-toastify";
 import { MdDeleteForever } from "react-icons/md";
+import { toast } from "react-toastify";
 
 const IncomeDetails = ({ account }) => {
     const { dispatchTwo } = useAccountContext();
@@ -18,7 +18,8 @@ const IncomeDetails = ({ account }) => {
         }
     };
 
-    const income = () => toast("income deleted");
+    const income = () => toast("Income Deleted");
+    
     return (
         <div className="account-details">
             <h4>{account.category}</h4>
@@ -31,7 +32,6 @@ const IncomeDetails = ({ account }) => {
                     addSuffix: true,
                 })}
             </p>
-
             <span
                 className="account-delete-icon"
                 onClick={() => {

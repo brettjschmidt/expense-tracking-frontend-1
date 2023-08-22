@@ -6,12 +6,11 @@
     padding: 10px;
 }
 
-
 .balance-details {
     background: var(--primary);
     display: grid;
     grid: 1fr;
-    border-radius: 4px;
+    border-radius: 5px;
     margin: 20px auto;
     padding: 20px;
     position: relative;
@@ -36,12 +35,13 @@
     cursor: pointer;
     background: var(--primary);
     padding: 6px;
-    border-radius: 50%;
+
 }
 
 .delete-icon {
     color: var(--secondary);
     font-size: 1.2em;
+    
 }
 
 .account-details {

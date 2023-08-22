@@ -56,7 +56,7 @@ const TrackingForm = () => {
                 className={emptyFields.includes("title") ? "error" : ""}
             />
 
-            <label>Amount (0.00)</label>
+            <label>Amount ($0.00)</label>
             <input
                 type="numbers"
                 onChange={(e) => setAmount(e.target.value)}
@@ -84,7 +84,7 @@ const TrackingForm = () => {
                 <option value="Utility Bills">Utility Bills</option>
             </select>
 
-            <button onClick={notify}>Add Expense</button>
+            <button onClick={notify}><strong>Add Expense</strong></button>
         </form>
     );
 };

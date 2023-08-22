@@ -65,7 +65,7 @@ const IncomeForm = () => {
                 className={emptyFields.includes("amount") ? "error" : ""}
             />
 
-            <button onClick={profits}>Add Income</button>
+            <button onClick={profits}><strong>Add Income</strong></button>
         </form>
     );
 };

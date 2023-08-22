@@ -29,7 +29,7 @@ const ExpenseTotal = () => {
     };
 
     return (
-        <div className="balance-total">
+        <div className="expense-total">
             {balances && <p>Expense Total: ${calculateTotalExpense()}</p>}
         </div>
     );

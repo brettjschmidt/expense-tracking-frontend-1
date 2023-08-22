@@ -18,13 +18,13 @@ const ExpenseDetails = ({ balance }) => {
         }
     };
 
-    const alert = () => toast("Expense deleted");
+    const alert = () => toast("Expense Deleted");
 
     return (
         <div className="balance-details">
             <h4>{balance.title}</h4>
             <p>
-                <strong>Amount $ </strong>
+                <strong>Amount $</strong>
                 {balance.amount}
             </p>
             <p>
