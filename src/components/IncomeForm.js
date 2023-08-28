@@ -32,7 +32,7 @@ const IncomeForm = () => {
             setAmount("");
             setError(null);
             setEmptyFields([]);
-            console.log("new account added", json);
+            console.log("new income added", json);
             dispatchTwo({ type: "CREATE_ACCOUNT", payload: json });
         }
     };

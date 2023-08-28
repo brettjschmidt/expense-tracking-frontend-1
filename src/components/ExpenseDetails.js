@@ -21,7 +21,7 @@ const ExpenseDetails = ({ balance }) => {
     const alert = () => toast("Expense Deleted");
 
     return (
-        <div className="balance-details">
+        <div className="expense-details">
             <h4>{balance.title}</h4>
             <p>
                 <strong>Amount $</strong>

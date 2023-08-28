@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useBalancesContext } from "../hooks/useBalanceContext";
 import { toast } from "react-toastify";
 
-const TrackingForm = () => {
+const ExpenseForm = () => {
     const { dispatch } = useBalancesContext();
 
     const [title, setTitle] = useState("");
@@ -44,7 +44,7 @@ const TrackingForm = () => {
 
     return (
         <form className="create" onSubmit={handleSubmit}>
-            <div className="tracking-form-text">
+            <div className="expense-form-text">
             <h3>Add a New Expense</h3>
             </div>
             {error && <div className="error">{error}</div>}
@@ -89,4 +89,4 @@ const TrackingForm = () => {
     );
 };
 
-export default TrackingForm;
+export default ExpenseForm;

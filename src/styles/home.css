@@ -6,7 +6,7 @@
     padding: 10px;
 }
 
-.balance-details {
+.expense-details {
     background: var(--primary);
     display: grid;
     grid: 1fr;
@@ -17,18 +17,18 @@
     box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
 
-.balance-details h4 {
+.expense-details h4 {
     margin: 0 0 10px 0;
     font-size: 1.2em;
     color: var(--secondary);
 }
 
-.balance-details p {
+.expense-details p {
     margin: 0;
     font-size: 0.9em;
 }
 
-.balance-details span {
+.expense-details span {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -44,7 +44,7 @@
     
 }
 
-.account-details {
+.income-details {
     background: var(--primary);
     border-radius: 4px;
     margin: 20px auto;
@@ -53,18 +53,18 @@
     box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
 
-.account-details h4 {
+.income-details h4 {
     margin: 0 0 10px 0;
     font-size: 1.2em;
     color: var(--secondary);
 }
 
-.account-details p {
+.income-details p {
     margin: 0;
     font-size: 0.9em;
 }
 
-.account-details span {
+.income-details span {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -74,7 +74,7 @@
     border-radius: 50%;
 }
 
-.account-delete-icon {
+.income-delete-icon {
     color: var(--secondary);
     font-size: 1.2em;
 }

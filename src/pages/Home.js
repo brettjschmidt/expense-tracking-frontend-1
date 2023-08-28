@@ -5,7 +5,7 @@ import { useAccountContext } from "../hooks/useAccountContext";
 // Components
 import BalanceDetails from "../components/ExpenseDetails";
 import AccountDetails from "../components/IncomeDetails";
-import TrackingForm from "../components/TrackingForm";
+import ExpenseForm from "../components/ExpenseForm";
 import AccountForm from "../components/IncomeForm";
 
 const Home = () => {
@@ -47,7 +47,7 @@ const Home = () => {
                             />
                         ))}
                     <div className="input-forms">
-                        <TrackingForm />
+                        <ExpenseForm />
                     </div>
                 </div>
             </div>

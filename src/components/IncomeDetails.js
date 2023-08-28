@@ -21,7 +21,7 @@ const IncomeDetails = ({ account }) => {
     const income = () => toast("Income Deleted");
     
     return (
-        <div className="account-details">
+        <div className="income-details">
             <h4>{account.category}</h4>
             <p>
                 <strong>Amount $</strong>
@@ -33,7 +33,7 @@ const IncomeDetails = ({ account }) => {
                 })}
             </p>
             <span
-                className="account-delete-icon"
+                className="income-delete-icon"
                 onClick={() => {
                     handleClick();
                     income();
