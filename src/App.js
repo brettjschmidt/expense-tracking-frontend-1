@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 
+
 // styles
 import "./styles/main.css";
 import "./styles/home.css";
@@ -20,12 +21,14 @@ import CoreLayout from "./layouts/CoreLayout";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 
+
+
+
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<CoreLayout />} errorElement={<Error />}>
             <Route index element={<Home />}></Route>
         </Route>
-
     )
 );
 
