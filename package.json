@@ -1,5 +1,5 @@
 {
-    "proxy": "https://brettjschmidt-expense-backend-ef9d4d1f5feb.herokuapp.com/ ",
+    "proxy": "https://brettjschmidt-expense-backend-ef9d4d1f5feb.herokuapp.com/",
     "name": "frontend",
     "version": "0.1.0",
     "private": true,
